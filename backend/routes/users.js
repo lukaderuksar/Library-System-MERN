@@ -3,6 +3,25 @@ import User from "../models/User.js";
 
 const router = express.Router()
 
+router.delete("/delete/:email", async (req, res) => {
+  try {
+    const email = req.params.email;
+
+    // Find user by email and delete it
+    const deletedUser = await User.findOneAndDelete({ email });
+
+    if (!deletedUser) {
+      return res.status(404).json({ error: "User not found" });
+    }
+
+    return res.status(200).json({ message: "User deleted successfully", deletedUser });
+  } catch (err) {
+    console.error(err);
+    return res.status(500).json({ error: "Internal server error" });
+  }
+});
+
+
 /* Getting user by id */
 router.get("/getuser/:id", async (req, res) => {
     try {
