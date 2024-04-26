@@ -10,13 +10,13 @@ function Header() {
     const [loggedIn, setLoggedIn] = useState(false);
 
     useEffect(() => {
-        const user = JSON.parse(localStorage.getItem('user'));
-        if (user) {
-            setLoggedIn(true);
-            console.log("loggedin");
-        } else {
-            setLoggedIn(false);
-        }
+        // const user = JSON.parse(localStorage.getItem('user'));
+        // if (user) {
+        //     setLoggedIn(true);
+        //     console.log("loggedin");
+        // } else {
+        //     setLoggedIn(false);
+        // }
     }, []);
 
     const Toggle = () => {
