@@ -46,6 +46,7 @@ router.post("/addbook", async (req, res) => {
                 bookName: req.body.bookName,
                 alternateTitle: req.body.alternateTitle,
                 author: req.body.author,
+                coverImg: req.body.coverImg,
                 bookCountAvailable: req.body.bookCountAvailable,
                 language: req.body.language,
                 publisher: req.body.publisher,
@@ -65,7 +66,7 @@ router.post("/addbook", async (req, res) => {
     }
 })
 
-/* Addding book */
+/* Updating book */
 router.put("/updatebook/:id", async (req, res) => {
     if (req.body.isAdmin) {
         try {

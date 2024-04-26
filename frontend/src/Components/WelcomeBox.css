@@ -13,12 +13,7 @@
     font-size: 40px;
     font-weight: 900;
     padding: 15px;
-    color: blue;
-    text-shadow: 
-        1px 1px 0 #18e657,
-        2px 2px 0 #bf189b,
-        3px 3px #ffeb00,
-        4px 4px black;
+    color: rgb(0, 0, 0);
 
 }
 

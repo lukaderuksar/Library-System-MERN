@@ -90,7 +90,7 @@ Show some ❤️ and 🌟 the repo to support the project
 
 ## Author 📝
 
-- [@iampranavdhar](https://www.github.com/iampranavdhar)
+- [mokesh](https://www.github.com/mokeshb)
 
 ## Connect Me On 🌍
 

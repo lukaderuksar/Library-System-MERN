@@ -12,34 +12,34 @@ function ReservedBooks() {
                     <th>Date</th>
                 </tr>
                 <tr>
-                    <td>Pranav</td>
+                    <td>Aditya</td>
                     <td>Rich Dad Poor Dad</td>
-                    <td>12/7/2021</td>
+                    <td>01/7/2024</td>
                 </tr>
                 <tr>
-                    <td>Sashank</td>
+                    <td>Sripad</td>
                     <td>The Subtle Art</td>
-                    <td>10/7/2021</td>
+                    <td>02/17/2024</td>
                 </tr>
                 <tr>
-                    <td>Tanishq</td>
+                    <td>Mahesh</td>
                     <td>Wings Of Fire</td>
-                    <td>15/9/2021</td>
+                    <td>03/9/2024</td>
                 </tr>
                 <tr>
-                    <td>Akhil</td>
+                    <td>Mokesh</td>
                     <td>The Secret</td>
-                    <td>02/9/2021</td>
+                    <td>03/3/2024</td>
                 </tr>
                 <tr>
-                    <td>Surya</td>
+                    <td>Ruksar</td>
                     <td>Bad Guys</td>
-                    <td>21/7/2021</td>
+                    <td>02/14/2024</td>
                 </tr>
                 <tr>
-                    <td>Dinesh</td>
+                    <td>Habi</td>
                     <td>Giovanni Rovelli</td>
-                    <td>02/7/2021</td>
+                    <td>03/21/2024</td>
                 </tr>
             </table>
         </div>

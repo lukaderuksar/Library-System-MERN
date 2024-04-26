@@ -13,6 +13,10 @@ const BookSchema = new mongoose.Schema({
         type:String,
         require:true
     },
+    coverImg:{
+        type: String,
+        require:true
+    },
     language:{
         type:String,
         default:""
