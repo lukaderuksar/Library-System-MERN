@@ -6,7 +6,7 @@ const booksOnHold = [
     { id: 3, name: "Mahesh", book: "Wings Of Fire", date: "03/09/2024" },
     { id: 4, name: "Mokesh", book: "The Secret", date: "03/03/2024" },
     { id: 5, name: "Ruksar", book: "Bad Guys", date: "02/14/2024" },
-    { id: 6, name: "Habi", book: "Giovanni Rovelli", date: "03/21/2024" },
+    { id: 6, name: "Shyam", book: "Giovanni Rovelli", date: "03/21/2024" },
 ];
 
 function ReservedBooks() {

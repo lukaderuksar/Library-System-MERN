@@ -22,7 +22,7 @@ router.post("/add-transaction", async (req, res) => {
             res.status(200).json(transaction)
         }
         else if (req.body.isAdmin === false) {
-            res.status(500).json("You are not allowed to add a Transaction")
+            res.status(500).json("You are not allowed to Reserve a Book")
         }
     }
     catch (err) {

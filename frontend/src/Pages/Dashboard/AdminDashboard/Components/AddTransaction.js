@@ -159,7 +159,7 @@ function AddTransaction() {
 
     return (
         <div>
-            <p className="dashboard-option-title">Add a Transaction</p>
+            <p className="dashboard-option-title">Reserve a Book</p>
             <div className="dashboard-title-line"></div>
             <form className='transaction-form' onSubmit={addTransaction}>
                 <label className="transaction-form-label" htmlFor="borrowerId">Borrower<span className="required-field">*</span></label><br />

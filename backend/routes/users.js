@@ -83,7 +83,7 @@ router.put("/:id/move-to-activetransactions" , async (req,res)=>{
         }
     }
     else{
-        res.status(403).json("Only Admin can add a transaction")
+        res.status(403).json("Only Admin can Reserve a Book")
     }
 })
 
